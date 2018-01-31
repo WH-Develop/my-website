@@ -1,0 +1,341 @@
+
+
+
+body {
+    color: #333333;
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family: 'Racing Sans One', cursive;
+}
+
+nav {
+  min-height: 2000px;
+padding-top: 70px;
+}
+a{
+    outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6,
+p {
+    font-family: 'PT Sans', sans-serif;
+}
+
+b {
+    color: #01008a;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #01008a;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #01008a;
+}
+
+h3 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #01008a;
+}
+
+@media (min-width: 992px) {
+
+    p {
+        text-align: justify;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    p {
+        text-align: left;
+    }
+
+}
+
+#container {
+    min-height:100%;
+    position:relative;
+}
+
+#body {
+    padding: 10px 0 100px;
+}
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 7px;
+    padding: 8px 10px;
+    color: white;
+    background-color: #7b7cbf;
+    opacity: 0.8;
+    visibility: hidden;
+}
+
+@media (max-width: 991px) {
+
+    .back-to-top:hover {
+        color: white;
+    }
+
+}
+.b-container {
+
+    padding-top: 200px;
+	padding-bottom: 50px;
+}
+
+.a-container {
+
+    padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.4em;
+}
+
+.padding-bottom
+{
+    padding-bottom: 50px;
+}
+
+.padding-top
+{
+    padding-top: 50px;
+}
+
+@media (min-width: 992px) {
+    .text-container {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .text-container {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .no-padding-right {
+        padding-right: 0;
+    }
+
+    .no-padding-left {
+        padding-left: 0;
+    }
+}
+
+.top-margin {
+    margin-top: 60px;
+}
+
+.bottom-margin {
+    margin-bottom: 80px;
+}
+
+.link,
+.link:hover,
+.link:active {
+    text-decoration: none;
+}
+
+@media (max-width: 991px) {
+    .about-image {
+        border-radius: 50%;
+        border: 2px solid #7b7cbf;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.anchor
+{
+    min-height: 0;
+    max-height: 0;
+}
+
+@media (max-width : 767px) {
+  .banner-image-container{
+      background: url(https://www.darainnovations.de/img/banner-xs.jpg) no-repeat;
+    }
+}
+@media (min-width : 768px) {
+  .banner-image-container{
+      background: url(https://www.darainnovations.de/img/banner-sm.jpg) no-repeat;
+    }
+}
+@media (min-width : 992px) {
+  .banner-image-container{
+      background: url(https://www.darainnovations.de/img/banner-md.jpg) no-repeat;
+    }
+}
+@media (min-width : 1200px) {
+  .banner-image-container{
+      background: url(https://www.darainnovations.de/img/banner-lg.jpg) no-repeat;
+    }
+}
+
+.banner-image-container{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+}
+
+.wh-nav {
+    background-color: white;
+    
+}
+
+.navbar-toggle {
+    background-color: #01008a;
+    padding: 15px;
+}
+
+.navbar-left
+{
+   margin-left: -15px
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+.logo {
+    height: 100%;
+    width: auto;
+}
+
+@media (min-width: 992px) {
+    .logo {
+        height: 125%;
+    }
+}
+
+
+.logo-container {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.menu-text,
+.menu-text:focus
+{
+    color: #d20200;
+    border-radius: 5px;
+    font-weight: 700;
+      font-family: 'Racing Sans One', cursive;
+}
+
+
+.menu-text:hover
+{
+    color: #f77726;
+      font-family: 'Racing Sans One', cursive;
+}
+
+.highlight
+{
+    color: #f77726!important;
+      font-family: 'Racing Sans One', cursive;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+    background: none;
+}
+
+@media (min-width: 768px)
+{
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+}
+
+@media (min-width: 768px) {
+    .menu-text {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+}
+@media (min-width: 992px) {
+    .menu-text {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 991px) {
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-brand {
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .menu-text {
+        margin-left: 10px;
+    }
+
+    .logo-container {
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+#nav_progress
+{
+    width: 100%;
+    -webkit-box-shadow: 0 6px 5px -5px #01008a;
+    -moz-box-shadow: 0 3px 3px 1px #01008a;
+    -o-box-shadow:  0 3px 3px 1px #01008a;
+    box-shadow: 0 3px 3px 1px #01008a;
+}
